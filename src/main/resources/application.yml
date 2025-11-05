@@ -50,3 +50,11 @@ logging:
   level:
     com.example.pay.infraestructure.adapter.out.order: DEBUG
     org.springframework.cloud.openfeign: INFO
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json
