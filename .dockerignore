@@ -1,0 +1,12 @@
+.idea
+.vscode
+*.iml
+*.log
+.gradle
+build/
+out/
+**/.git
+.git
+.gitignore
+.DS_Store
+docker-compose.override.yml

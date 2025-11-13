@@ -29,11 +29,12 @@ public class OpenApiConfig {
   }
 
   
-  @Bean
-  public GroupedOpenApi publicApi() {
-    return GroupedOpenApi.builder()
-        .group("public")
-        .packagesToScan("com.example.arkapay") 
-        .build();
-  }
+ @Bean
+public GroupedOpenApi publicApi() {
+  return GroupedOpenApi.builder()
+      .group("public")
+      .packagesToScan("com.example.pay") 
+      .build();
+}
+
 }
